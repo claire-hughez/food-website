@@ -6,6 +6,7 @@ recommendations whenever others ask about them.
 Potential feature list:
 * Tagging of restaurants (location/cuisine/e.t.c.)
   * Filtering by tags
+* Restaurant price expectations
 * Page of greatest hits/top 10/whatever
 * Listing favourite items on menu
 * Individual pages for each restaurant, with optional commentary, map of locations, e.t.c.

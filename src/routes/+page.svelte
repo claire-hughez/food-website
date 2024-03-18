@@ -1,7 +1,6 @@
 <script lang="ts">
   import { categories } from '$lib/data/categories';
   import { getByCategory } from '$lib/dao/restaurants';
-    import { restaurants } from '$lib/data/restaurants';
 
   const restaurantsByCategory = categories.reduce((map, currentCategory) => {
     map.set(currentCategory, getByCategory(currentCategory.id));
@@ -27,3 +26,8 @@
     </ul>
   {/each}
 </div>
+
+<p class="my-4">Don't see your favourite restaurant on here? Drop us an email at 
+  <a href="mailto:food-referral@barnett.dev">food-referral@barnett.dev</a>, and
+  we'll try to get round to checking it out.
+</p>
