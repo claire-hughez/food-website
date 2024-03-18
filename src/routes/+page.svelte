@@ -9,7 +9,7 @@
   }, new Map());
 </script>
 
-<h1 class="mb-4 text-4xl font-extrabold leading-none text-slate">Favourite Restaurants</h1>
+<h1 class="mb-4 text-4xl font-extrabold leading-none text-slate">Our favourite places</h1>
 
 <div class="mx-4">
   {#each restaurantsByCategory as [category, restaurants]}
