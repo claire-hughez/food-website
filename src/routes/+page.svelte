@@ -9,6 +9,10 @@
   }, new Map());
 </script>
 
+<svelte:head>
+  <title>Our favourite places</title>
+</svelte:head>
+
 <h1 class="mb-4 text-4xl font-extrabold leading-none text-slate">Our favourite places</h1>
 
 <div class="mx-4">

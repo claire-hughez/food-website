@@ -7,6 +7,10 @@
   const category = get(data.category);
 </script>
 
+<svelte:head>
+  <title>Our favourite places - {data.name}</title>
+</svelte:head>
+
 <h1 class="mb-4 text-4xl font-extrabold leading-none text-slate">{data.name}</h1>
 
 <div>
