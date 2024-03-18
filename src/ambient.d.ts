@@ -6,4 +6,6 @@ type Category = {
 type Restaurant = {
   name: string
   category: string
+  website?: string
+  source?: string
 }

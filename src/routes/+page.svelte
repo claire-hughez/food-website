@@ -1,6 +1,7 @@
 <script lang="ts">
   import { categories } from '$lib/data/categories';
   import { getByCategory } from '$lib/dao/restaurants';
+    import { restaurants } from '$lib/data/restaurants';
 
   const restaurantsByCategory = categories.reduce((map, currentCategory) => {
     map.set(currentCategory, getByCategory(currentCategory.id));
@@ -15,7 +16,13 @@
     <h2 class="mb-1 mt-2 text-2xl font-bold text-slate">{category.displayName}</h2>
     <ul class="ml-2 list-disc list-inside">
       {#each restaurants as restaurant}
-        <li>{restaurant.name}</li>
+        <li>
+          {#if restaurant.website}
+            <a href="{restaurant.website}">{restaurant.name}</a>
+          {:else}
+            {restaurant.name}
+          {/if}
+        </li>
       {/each}
     </ul>
   {/each}

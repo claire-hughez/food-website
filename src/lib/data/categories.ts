@@ -32,6 +32,10 @@ export const categories: Array<Category> = [
     displayName: "Coffee ☕"
   },
   {
+    id: "brunch",
+    displayName: "Brunch"
+  },
+  {
     id: "other",
     displayName: "Other fave restaurants 🤤"
   }
