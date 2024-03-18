@@ -8,13 +8,15 @@
   }, new Map());
 </script>
 
-<h1>Favourite Restaurants</h1>
+<h1 class="mb-4 text-4xl font-extrabold leading-none text-slate">Favourite Restaurants</h1>
 
-{#each restaurantsByCategory as [category, restaurants]}
-  <h2>{category.displayName}</h2>
-  <ul>
-    {#each restaurants as restaurant}
-      <li>{restaurant.name}</li>
-    {/each}
-  </ul>
-{/each}
+<div class="mx-4">
+  {#each restaurantsByCategory as [category, restaurants]}
+    <h2 class="mb-1 mt-2 text-2xl font-bold text-slate">{category.displayName}</h2>
+    <ul class="ml-2 list-disc list-inside">
+      {#each restaurants as restaurant}
+        <li>{restaurant.name}</li>
+      {/each}
+    </ul>
+  {/each}
+</div>
