@@ -1,35 +1,43 @@
 export const categories: Array<Category> = [
   {
     id: "ice-cream",
-    displayName: "Ice Cream 🍦"
+    displayName: "Ice Cream",
+    emoji: "🍦"
   },
   {
     id: "baked-goods",
-    displayName: "Baked goods 🍩"
+    displayName: "Baked goods",
+    emoji: "🍩"
   },
   {
     id: "chocolates",
-    displayName: "Chocolates 🍫"
+    displayName: "Chocolates",
+    emoji: "🍫"
   },
   {
     id: "steak",
-    displayName: "Steak 🐮"
+    displayName: "Steak",
+    emoji: "🐮"
   },
   {
     id: "pizza",
-    displayName: "Pizza 🍕"
+    displayName: "Pizza",
+    emoji: "🍕"
   },
   {
     id: "italian-restaurants",
-    displayName: "Italian restaurants 🇮🇹"
+    displayName: "Italian restaurants",
+    emoji: "🇮🇹"
   },
   {
     id: "japanese-restaurants",
-    displayName: "Japanese restaurants 🍣"
+    displayName: "Japanese restaurants",
+    emoji: "🍣"
   },
   {
     id: "coffee",
-    displayName: "Coffee ☕"
+    displayName: "Coffee",
+    emoji: "☕"
   },
   {
     id: "brunch",
@@ -37,6 +45,7 @@ export const categories: Array<Category> = [
   },
   {
     id: "other",
-    displayName: "Other fave restaurants 🤤"
+    displayName: "Other fave restaurants",
+    emoji: "🤤"
   }
 ]
