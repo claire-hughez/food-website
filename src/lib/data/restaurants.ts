@@ -11,7 +11,13 @@ export const restaurants: Array<Restaurant> = [
     name: "Bilmonte",
     category: "ice-cream",
     website: "https://www.bilmonte.it",
-    source: "friend"
+    source: "friend",
+    pageContent: [
+      {
+        type: "paragraph",
+        value: "An excellent ice cream place on the boundary of Soho and Picadilly, it's a great way to finish off a meal after eating at the Blacklock opposite."
+      }
+    ]
   },
   {
     id: "crosstown",

@@ -32,4 +32,14 @@
       </tr>
     {/if}
   </table>
+  
+  {#if data.pageContent}
+    <article class="mt-6 prose">
+      {#each data.pageContent as contentElement}
+        {#if contentElement.type === "paragraph"}
+          <p>{contentElement.value}</p>
+        {/if}
+      {/each}
+    </article>
+  {/if}
 </div>

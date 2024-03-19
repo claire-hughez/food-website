@@ -10,4 +10,10 @@ type Restaurant = {
   category: string
   website?: string
   source?: string
+  pageContent?: Array<PageContent>
+}
+
+interface PageContent {
+  type: string,
+  value: string
 }
