@@ -1,10 +1,10 @@
 <script lang="ts">
   import { base } from "$app/paths";
   import { getAll } from '$lib/dao/categories';
-  import { getByCategory } from '$lib/dao/restaurants';
+  import { getAllByCategory } from '$lib/dao/restaurants';
 
   const restaurantsByCategory = getAll().reduce((map, currentCategory) => {
-    map.set(currentCategory, getByCategory(currentCategory.id));
+    map.set(currentCategory, getAllByCategory(currentCategory.id));
     return map;
   }, new Map());
 </script>
@@ -13,7 +13,7 @@
   <title>Our favourite places</title>
 </svelte:head>
 
-<h1 class="mb-4 text-2xl font-bold leading-none text-slate">The big list</h1>
+<h1 class="mb-4 text-2xl font-bold leading-none text-slate">The stand outs</h1>
 
 <p>
   Just a big list of some of our favourite restaurants in London.

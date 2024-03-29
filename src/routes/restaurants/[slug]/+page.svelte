@@ -32,6 +32,17 @@
       </tr>
     {/if}
   </table>
+
+  {#if data.menuItemsTried}
+    <div class="my-4">
+      <h2 class="mb-2 text-lg font-bold leading-none text-slate">Menu items we've tried</h2>
+      <ul class="ml-2 list-disc list-inside">
+        {#each data.menuItemsTried as menuItem}
+          <li>{menuItem}</li>
+        {/each}
+      </ul>
+    </div>
+  {/if}
   
   {#if data.pageContent}
     <article class="mt-6 prose">

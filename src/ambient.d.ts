@@ -7,9 +7,11 @@ type Category = {
 type Restaurant = {
   id: string
   name: string
+  chainRestaurant: boolean
   category: string
   website?: string
   source?: string
+  menuItemsTried? : Array<string>
   pageContent?: Array<PageContent>
 }
 
