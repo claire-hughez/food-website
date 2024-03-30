@@ -11,7 +11,7 @@
   <title>Our favourite places - {data.name}</title>
 </svelte:head>
 
-<h1 class="mb-4 text-2xl font-bold leading-none text-slate">{data.name}</h1>
+<h1 class="mb-4 text-2xl font-bold leading-none">{data.name}</h1>
 
 <div>
   <table class="text-sm text-left">
@@ -35,7 +35,7 @@
 
   {#if data.menuItemsTried}
     <div class="my-4">
-      <h2 class="mb-2 text-lg font-bold leading-none text-slate">Menu items we've tried</h2>
+      <h2 class="mb-2 text-lg font-bold leading-none">Menu items we've tried</h2>
       <ul class="ml-2 list-disc list-inside">
         {#each data.menuItemsTried as menuItem}
           <li>{menuItem}</li>

@@ -41,7 +41,8 @@ export const categories: Array<Category> = [
   },
   {
     id: "brunch",
-    displayName: "Brunch"
+    displayName: "Brunch",
+    emoji: "🥞"
   },
   {
     id: "other",

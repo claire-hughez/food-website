@@ -13,7 +13,7 @@
   <title>Our favourite places</title>
 </svelte:head>
 
-<h1 class="mb-4 text-2xl font-bold leading-none text-slate">The stand outs</h1>
+<h1 class="mb-4 text-2xl font-bold leading-none">The stand outs</h1>
 
 <p>
   Just a big list of some of our favourite restaurants in London.
@@ -21,7 +21,7 @@
 
 <div class="mx-4">
   {#each restaurantsByCategory as [category, restaurants]}
-    <h2 class="mb-1 mt-2 text-lg font-bold text-slate">{category.displayName} {#if category.emoji}{category.emoji}{/if}</h2>
+    <h2 class="mb-1 mt-2 text-lg font-bold">{category.displayName} {#if category.emoji}{category.emoji}{/if}</h2>
     <ul class="ml-2 list-disc list-inside">
       {#each restaurants as restaurant}
         <li><a href="{base}/restaurants/{restaurant.id}">{restaurant.name}</a></li>

@@ -1,7 +1,7 @@
 type Category = {
   id: string
   displayName: string
-  emoji?: string
+  emoji: string
 }
 
 type Restaurant = {
