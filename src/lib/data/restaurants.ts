@@ -244,10 +244,11 @@ export const restaurants: Array<Restaurant> = [
     website: "https://www.dropshotcoffee.co.uk"
   },
   {
-    id: "mud",
-    name: "Mud",
+    id: "utter-waffle",
+    name: "Utter Waffle",
     chainRestaurant: false,
-    category: "brunch"
+    category: "brunch",
+    website: "https://utterwaffle.co.uk"
   },
   {
     id: "roti-king",
