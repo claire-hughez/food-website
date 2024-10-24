@@ -222,6 +222,18 @@ export const restaurants: Array<Restaurant> = [
     website: "https://www.kampaisushi.co.uk"
   },
   {
+    id: "gyoza-san",
+    name: "Gyoza San",
+    chainRestaurant: false,
+    category: "japanese-restaurants",
+    website: "https://gyozasan.co.uk",
+    menuItemsTried: [
+      "Pork gyoza",
+      "Kimchi pork gyoza",
+      "Shichimi french fries"
+    ]
+  },
+  {
     id: "formative",
     name: "Formative",
     chainRestaurant: false,
