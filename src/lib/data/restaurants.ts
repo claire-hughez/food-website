@@ -132,7 +132,7 @@ export const restaurants: Array<Restaurant> = [
       },
       {
         type: "paragraph",
-        value: "While we didn't manage to try their desert, Ottolenghi nearby provides an excellent choice of cakes to enjoy afterwards."
+        value: "While we didn't manage to try their dessert, Ottolenghi nearby provides an excellent choice of cakes to enjoy afterwards."
       }
     ]
   },
