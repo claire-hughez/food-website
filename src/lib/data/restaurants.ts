@@ -17,7 +17,7 @@ export const restaurants: Array<Restaurant> = [
     pageContent: [
       {
         type: "paragraph",
-        value: "An excellent ice cream place on the boundary of Soho and Picadilly, it's a great way to finish off a meal after eating at the Blacklock opposite."
+        value: "An excellent ice cream place on the boundary of Soho and Piccadilly, it's a great way to finish off a meal after eating at the Blacklock opposite."
       }
     ]
   },
@@ -124,7 +124,7 @@ export const restaurants: Array<Restaurant> = [
     pageContent: [
       {
         type: "paragraph",
-        value: "All of the food we tried excellent, probably our second favourite pizza in London (and by a small margin, to World Famous Gordos). The pizza crust in particular was incredible."
+        value: "All of the food we tried was excellent, probably our second favourite pizza in London (and by a small margin, to World Famous Gordos). The pizza crust in particular was incredible."
       },
       {
         type: "paragraph",
